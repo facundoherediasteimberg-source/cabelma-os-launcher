@@ -31,9 +31,6 @@ Si una respuesta está demasiado vaga, pedir más detalle una sola vez antes de 
 ```
 1/8 — ¿Cuál es tu nombre completo, tu puesto y tu área?
 ¿A quién le entregás información o resultados — quién depende de lo que producís?
-
-Ejemplo: "Facundo García, analista de producción en el área de Producción.
-Le entrego el informe diario de fallas a Fabián (supervisor) y el reporte mensual a Daniela (Control de Gestión)."
 ```
 
 Guardar internamente: `nombre`, `puesto`, `area`, `stakeholders`.
