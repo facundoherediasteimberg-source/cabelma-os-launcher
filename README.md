@@ -1,6 +1,6 @@
 # Cabelma-OS
 
-Tu asistente IA personal para trabajar en Cabelma S.A.
+Tu asistente AI personal para trabajar en Cabelma S.A.
 
 ---
 
@@ -19,33 +19,19 @@ Después de configurarlo, el AI va a saber:
 
 ## Cómo empezar
 
-Elegí el AI que más te convenga. Todos leen este repo y funcionan igual.
+1. Cloná este repo y abrilo en tu AI
+2. Pegá este prompt para arrancar el onboarding:
 
-| AI | Costo | Cómo instalarlo | Archivo que usa |
-|---|---|---|---|
-| **Claude Code** | Pago (Claude Pro) | [claude.ai/code](https://claude.ai/code) | `CLAUDE.md` |
-| **Gemini CLI** | Gratis | [g.co/gemini-cli](https://g.co/gemini-cli) | `GEMINI.md` |
-| **Codex CLI** | Pago (OpenAI) | `npm install -g @openai/codex` | `AGENTS.md` |
+```
+Leé el archivo de instrucciones de este repo y .claude/skills/cabelma-onboard/SKILL.md.
+Ejecutá el proceso de onboarding: haceme las preguntas una a una, esperá mis respuestas,
+y al terminar generá los archivos que indica. Empezá con la bienvenida del Paso 1.
+```
 
-### Opción A — Claude Code
+> **Si usás Claude Code:** en lugar del prompt de arriba, escribí directamente `/cabelma-onboard`.
 
-1. Instalá Claude Code
-2. Cloná este repo y abrilo en Claude Code
-3. Escribí `/cabelma-onboard` y seguí las instrucciones
-
-### Opción B — Gemini CLI (gratis)
-
-1. Instalá Gemini CLI
-2. Cloná este repo
-3. Desde la carpeta del repo, ejecutá `gemini`
-4. Pegá: `Leé GEMINI.md y .claude/skills/cabelma-onboard/SKILL.md y corré el onboarding`
-
-### Opción C — Codex CLI
-
-1. Instalá Codex: `npm install -g @openai/codex`
-2. Cloná este repo
-3. Desde la carpeta del repo, ejecutá `codex`
-4. Seguí `MANUAL-ONBOARD.md`
+Cualquier AI de terminal funciona: Claude Code, Gemini CLI, Codex, u otro.
+Cada uno lee su propio archivo de instrucciones (`CLAUDE.md`, `GEMINI.md` o `AGENTS.md`) — todos tienen el mismo contenido.
 
 ---
 
