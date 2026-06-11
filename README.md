@@ -1,6 +1,6 @@
 # Cabelma-OS
 
-Tu asistente AI personal para trabajar en Cabelma S.A.
+Tu asistente IA personal para trabajar en Cabelma S.A.
 
 ---
 
